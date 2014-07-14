@@ -16,3 +16,5 @@ writeevent.o: writeevent.cc
 clean:
 	rm *.o
 
+rebuild: clean make
+
